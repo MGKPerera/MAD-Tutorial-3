@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F14E23">
+
+    <ImageView
+        android:id="@+id/custom_toast_image"
+        android:layout_width="156dp"
+        android:layout_height="101dp"
+        android:contentDescription="Hello world"
+        android:paddingTop="6sp"
+        android:paddingBottom="6sp"
+        android:src="@drawable/custom_toast_image" />
+
+    <TextView
+        android:id="@+id/custom_toast_message"
+        android:layout_width="197dp"
+        android:layout_height="75dp"
+        android:contentDescription="To"
+        android:paddingTop="20sp"
+        android:text="You Just clicked Ok button..!"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>
